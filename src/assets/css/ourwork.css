@@ -1,0 +1,85 @@
+.ourwork-root {
+    padding: 15px 15px 25px;
+    margin: 4rem 0rem 3rem;
+}
+
+.ourwork-card {
+    border: 0px solid black !important;
+    border-radius: 1rem !important;
+    background: transparent !important;
+}
+
+.ourwork-card-title {
+    font-family: Poppins_bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px !important;
+    color: #000000;
+}
+
+.ourwork-card-text {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 143.6%;
+    color: #818181;
+}
+
+.ourwork-root .card-body {
+    padding: 1.25rem 0 2rem;
+}
+
+.set_partner_root {
+    margin-bottom: 40px;
+}
+
+.ourwork-card-one .card-body,.ourwork-card-four .card-body {
+    margin: 10px 0;
+}
+
+.ourwork-card-one .ourwork-card-title,.ourwork-card-four .ourwork-card-title {
+    margin: 0;
+}
+
+.ourwork-card-two .card-body,.ourwork-card-three .card-body {
+    margin: 15px 0;
+}
+
+.ourwork-card-two .card-title, .ourwork-card-three .card-title {
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 991px) {
+    .ourwork-root {
+        padding: 0;
+    }
+    .set_partner_root {
+        margin-bottom: 20px;
+    }
+    .ourwork-card-text{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .ourwork-root {
+        margin: 0;
+    }
+    .set_partner_root {
+        margin-bottom: 10px;
+    }
+    .ourwork-card-one .card-body,.ourwork-card-four .card-body {
+        margin: 0px;
+    }
+    .ourwork-card-one .ourwork-card-title,.ourwork-card-four .ourwork-card-title {
+        margin-bottom:10px;
+    }
+    .ourwork-card-two .card-body,.ourwork-card-three .card-body {
+        margin: 0px;
+    }
+    
+    .ourwork-card-two .card-title, .ourwork-card-three .card-title {
+        margin-bottom: 10px;
+    }
+}

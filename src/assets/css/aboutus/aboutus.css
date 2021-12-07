@@ -1,0 +1,164 @@
+.set_page_title{
+    margin: 80px 0 50px;
+}
+
+.aboutus-title{
+    font-family: Poppins_bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    color: #444444;
+    text-align: left;
+}
+.aboutus-text{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color: #818181;
+}
+.aboutus-link{
+    font-family: Poppins_bold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 20px;
+    color: #1D83FF;
+}
+.aboutus-image-panel{
+    margin-left: 84px;
+    margin-top: 62px;
+    width: 82%;
+    z-index: -1;
+}
+.about-us-image{
+    display: block;
+}
+.aboutus-image{
+    width: 91%;
+}
+.aboutus-curious-no{
+    border-radius: 50%;
+    color: white;
+    font-family:Poppins_bold ;
+    width: 78px;
+    height: 78px;
+    background-color:#1D83FF ;
+}
+.aboutus-curious-no-text{
+    margin-top: 2px;
+    font-size: 30px;
+    line-height: 42px;
+}
+.aboutus-userinfo-card{
+    object-fit: fill;
+    border-left: #1D83FF 35px solid;
+    border-radius: 30px;
+    padding: 32px 40px;
+    margin: 20px 0 20px 20px;
+    box-shadow: 0px 30px 40px rgba(0, 0, 0, 0.05);
+    height: 380px;
+    background-color: #fff;
+}
+.curious-text{
+    color: #000;
+}
+.curious_title_sec{
+    margin: 100px 20px 0;
+}
+.set_curious_block{
+    margin-top: 35px;
+}
+.curious_set{
+    padding:45px 30px;
+}
+.carious_card_block {
+    padding: 70px 0;
+}
+.curious_card_title {
+    margin: 0 0 30px;
+}
+.curious_card_link{
+    position: absolute;
+    cursor: pointer;
+    bottom: 8%;
+}
+.curious_card_link:hover{
+    padding-top: 20px;
+    text-decoration: none;
+}
+.about-section {
+    padding: 35px 0 0;
+}
+.user_intro{
+    position: relative;
+}
+.aboutus_create_ac{
+    
+}
+@media screen and (max-width: 800px) {  
+    body .about-section {
+        padding: 0;
+    }
+    .curious_card_link{
+        position: static;
+        cursor: pointer;
+        bottom: 8%;
+    }
+    .aboutus-userinfo-card{
+        height: auto;
+        margin: 20px 0;
+    }
+    .curious_title_sec{
+        margin: 40px 00px 0;
+    }
+    .about-us-image {
+        text-align: center;
+    }
+    .set_about_text{
+        margin-top: 40px;
+    }
+    .curious_set{
+        padding: 30px 0px;
+    }
+    .carious_card_block {
+        padding: 50px 0 50px;
+    }
+    .set_page_title {
+        margin: 30px 0 35px;
+    }
+    .aboutus-curious-no{
+        width: 60px;
+        height: 60px;
+    }
+    .aboutus-curious-no-text {
+        margin-top: 0px;
+        font-size: 24px;
+        line-height: 28px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .curious_card_title {
+        margin: 0 0 15px;
+    }
+    .aboutus-image-panel {
+        margin-left: 55px;
+    }
+    .aboutus-userinfo-card{
+        padding: 20px;
+        border-radius: 20px;
+        border-left: #1D83FF 22px solid;
+    }   
+    .aboutus-title{
+        font-size: 26px;
+        line-height: 40px;
+    }
+    .curious_card_link {
+        padding-top: 0px;
+    }
+}

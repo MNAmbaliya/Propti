@@ -1,0 +1,99 @@
+.faqs-text{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #444444;
+}
+
+.fags-tabs{
+    border: 0px;
+    font-family: Poppins;
+    font-size: 14px;
+    background: transparent !important;
+    padding-left: 5px 0px !important;
+}
+
+.MuiTabs-scroller.MuiTabs-scrollable {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.fags-tabs .nav-link {
+    display: block;
+    padding: 10px 52px;
+    font-size: 16px;
+    line-height: 27px;
+    color:#818181 !important;
+    border-bottom: 1px solid #dee2e6 !important;
+}
+
+.fags-tabs .nav-tabs{
+    border: none;
+}
+
+.nav-tabs .nav-link:hover {
+    border: 0px;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    background-color: transparent !important;
+    border: 0px;
+    border-bottom: 3px #1D83FF solid !important;
+    color: #1D83FF !important;
+}
+.faqs-item-card{
+    border-radius: 40px !important;
+    background: #FFFFFF;
+    box-shadow: 5px 5px 15px rgba(29, 131, 255, 0.1);
+}
+.faqs-item-card-header{
+    margin: 0 40px;
+    
+}
+.faqs-plus-icon{
+    font-family: Poppins;
+    font-size: 1.5rem;
+}
+
+.faq-title{
+    font-size: 30px;
+    line-height: 45px;
+}
+
+.set-faqs-tab + .tab-content > div {
+    min-height: 352px;
+  }
+
+@media screen and (max-width: 800px) {
+    .faqs-item-card-header {
+        margin: 0 10px;
+    }
+    .set-faqs-tab + .tab-content > div {
+        min-height: 200px;
+      }
+      .MuiTypography-body1{
+        min-height: 200px;
+    }
+}
+
+.MuiTab-wrapper{
+    font-family: Poppins !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+}
+
+.MuiAppBar-colorDefault{
+    background-color: transparent !important;
+    box-shadow: none !important;
+    border: 0px;    
+    font-family: Poppins;
+    font-size: 14px;
+    padding-left: 5px 0px !important;
+}
+
+.MuiTypography-body1{
+    min-height: 352px;
+}

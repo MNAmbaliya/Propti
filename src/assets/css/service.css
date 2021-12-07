@@ -1,0 +1,114 @@
+.service-select-category{
+    padding: 1px 2rem;
+    background-color:  transparent;
+    border-radius: 2rem;
+    
+}
+.service-select-category:hover{
+    padding: 1px 2rem;
+/*    background-color:  rgba(29, 131, 255, 0.2); */
+    border-radius: 2rem;
+}
+
+.service-select-category:hover a p{
+    color: #1D83FF;
+    font-weight:600;
+}
+
+.service-active a p {
+    color: #1D83FF !important;
+    font-weight:600;
+}
+
+.service-active{
+    padding: 1px 2rem;
+/*    background-color:  rgba(29, 131, 255, 0.2); */
+    border-radius: 2rem;
+}
+.service-select-category a{
+    text-decoration: none !important;
+}
+.service-avatar{
+    width: 100% !important;
+    max-width: 130px;
+    height: auto;
+    border-radius: 100px !important;
+}
+body .service-card {
+    border-radius: 1rem !important;
+    margin: 15px 0 !important;
+    border: 0.5px solid rgba(29, 131, 255, 0.5) !important;
+    transition: all 0.5s;
+}
+.service-card:hover {
+    border-color: #fff !important;
+    box-shadow: 5px 5px 10px rgb(58 122 248 / 10%) !important;
+}
+body .service-title {
+    color: #595959;
+    margin-bottom: 3px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+}
+.app-title{
+    color: #444444;
+}
+.f_service_btn {
+    padding: 8px 38px !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    color: #fff !important;
+}
+.set_page_title .app-title {
+    font-weight: 700;
+    font-family: 'Poppins_bold';
+    font-size: 30px;
+    line-height: 45px;
+}
+.sorting_block{
+    margin-bottom: 30px;
+}
+
+.set_service_card{
+    padding-top: 32px;
+    padding-bottom: 4px;
+}
+
+.service_card_body{
+    padding-top:30px !important;
+}
+.service-select-category a p {
+    font-size: 20px;
+    line-height: 30px;
+    color: #444444;
+}
+.service_section {
+    padding: 0 30px;
+}
+.private_details > div {
+    width: 100%;
+    max-width: 130px;
+}
+
+@media screen and (max-width: 800px) {
+    .service-select-category,.service-active {
+        padding: 1px 8px !important;
+    }
+    .service-avatar{
+        max-width: 100px;
+    }
+    .service_section {
+        padding: 0px;
+    }
+    .sorting_block{
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .set_service_card {
+        padding-top: 25px;
+        padding-bottom: 0px;
+    }
+}

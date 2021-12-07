@@ -1,0 +1,112 @@
+.login-title{
+    font-family: Poppins_bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 45px;
+    color: #444444;
+}
+.login-text{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(113, 108, 128, 0.7);
+}
+.login-form{
+    width: 30%;
+    text-align: center;
+}
+
+.login-input{
+    border:0px !important;
+    border-top-right-radius: 25px !important;
+    border-bottom-right-radius: 25px !important;
+    background-color: white !important;
+    padding: auto;
+}
+.login-input-prepend{
+    border:0px !important;
+    border-top-left-radius: 25px !important;
+    border-bottom-left-radius: 25px !important;
+    background-color: white !important;
+    padding: auto;
+    box-shadow: 0px 0px 15px rgba(121, 142, 168, 0.1);
+}
+.login-input-medium{
+    border:0px !important;
+    background-color: white !important;
+}
+.logo-link{
+    text-decoration: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+}
+.logo-link{
+    text-decoration: none !important;
+    font-weight: bold;
+}
+.login-password-hide-show{
+    cursor: pointer;
+}
+.login_button{
+    border-radius: 1.3rem !important;
+}
+
+.login_bg{
+    margin-top: 140px;
+    position:absolute;
+    z-index: -1;
+}
+.login_page .input-group{
+    height: 45px;
+    box-shadow: 0px 0px 15px rgba(29, 131, 255, 0.1);
+    border-radius: 40px;
+}
+.login_page .input-group input{
+    height: 45px;
+    padding: 0;
+}
+.login_page .input-group input:focus{
+   box-shadow: none;
+}
+body .login_button {
+    padding: 16px 60px !important;
+    line-height: 16px;
+    margin: 60px 0 27px;
+    color: #fff;
+}
+small.login-text.signup_ac.form-text{
+    margin-top: 20px;
+}
+.login_block{
+    margin-bottom: 85px;
+}
+@media screen and (max-width: 800px) {
+    .login-form{
+        width: 100%;
+        text-align: center;
+    }
+    .login_block{
+        width: 70% !important;
+    }
+    .login_block{
+        margin-bottom: 30px;
+    }
+    .login-title{
+        font-size: 26px;
+        line-height: 36px;
+    }
+    body .login_button{
+        margin: 30px 0 14px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .login_block{
+        width: 95% !important;
+    }
+}

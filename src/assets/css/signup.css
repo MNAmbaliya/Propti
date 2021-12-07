@@ -1,0 +1,50 @@
+.signup-label{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #1D83FF;
+    margin-right: 0 !important;
+}
+.signup-input{
+    border-radius: 1.5rem !important;
+    box-shadow: 5px 5px 15px rgb(67 127 236 / 10%);
+    height: 48px !important;
+    border: 0 !important;
+    height: 50px !important;
+    padding: 0 20px !important;
+}
+.signup-form{
+    width: 54%;
+    margin-bottom: 85px;
+}
+.PhoneInputInput{
+    padding:0px 20px;
+    height: 50px;
+    border: none;
+    box-shadow: 5px 5px 15px rgb(67 127 236 / 10%);
+    border-radius: 1.5rem !important;
+    outline: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: rgba(113, 108, 128, 0.7);
+}
+.signup-radio{
+    text-align: center;
+}
+@media screen and (max-width: 800px) {
+    .signup-form {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .signup-label{
+        font-size: 16px;
+    }
+    .signup-radio{
+        text-align: left;
+    }
+}

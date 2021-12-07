@@ -1,0 +1,530 @@
+.portal-choose-avatar{
+    margin: -80px 50px 0px 50px;
+}
+.portal-account-detail-button{
+    border-radius: 2rem !important; 
+    width: 10rem;
+    font-family: "Poppins";
+}
+.portal-account-detail-input{
+    border-radius: 10px !important;
+}
+
+body .portal-search-box{
+    border-radius: 2rem !important;
+    border:0.3px solid rgba(29, 131, 255, 0.5) !important;
+}
+
+body .portal-search-block .portal-search-box{
+    font-size: 14px;
+    line-height: 17px;
+    padding: 10px 37px;
+    height: auto;
+}
+
+.portal-search-block .portal-search-button{
+    padding: 8px 43px;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.portal-search-button{
+    border-radius: 2rem !important;
+    font-family: "Poppins";
+    right: 0px;
+}
+.portal-search-select{
+    border: 0.5px solid rgba(58, 122, 248, 0.2);
+    border-radius: 10px !important;
+    box-shadow: 2px 2px 4px rgba(58, 122, 248, 0.05);
+    font-family: "Poppins";
+    color: #3A7AF8 !important;
+}
+.portal-table{
+    border-radius: 10px;
+    border: 0.3px solid rgba(29, 131, 255, 0.5);
+}
+.portal-table-header{
+    background-color: rgba(29, 131, 255, 0.2);
+    border-radius: 10px 10px 0px 0px;
+}
+.portal-tale-text{
+    font-family: "Poppins";
+    font-size: 13px;
+    font-weight: bold;
+    color: #2E2E2E;
+}
+.portal-property-title{
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: bold;
+}
+.portal-image-upload{
+    border: 0.5px solid rgba(58, 122, 248, 0.5);
+    height: 350px;
+    border-radius: 10px;
+
+}
+
+body .portal-shortby .portal-search-select {
+    border: 0.5px solid rgba(58, 122, 248, 0.2);
+    font-size: 14px;
+    line-height: 16px;
+    padding: 6px 30px;
+    height: auto;
+    cursor: pointer;
+}
+
+body .portal-table-header {
+    padding: 14px 34px !important;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+}
+
+body .order-process-row .card-header{
+    background: #fff;
+    padding: 14px 0;
+}
+
+body .order-process-row p {
+    font-family: 'Roboto';
+    margin: 0;
+    color: #818181;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+}
+.upload-img-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 34px;
+}
+
+.upload-img-block {
+    background-color: rgb(196, 196, 196);
+    width: 180px;
+    height: 180px;
+    padding: 20px 20px;
+}
+
+.set_report_title {
+    padding: 60px 77px 70px;
+}
+
+.set_report_title .app-title {
+    font-weight: 700;
+    font-family: 'Poppins_bold';
+    font-size: 30px;
+    line-height: 45px;
+    color: #444444;
+    padding-bottom: 68px;
+}
+
+.set_report_search .pac-target-input {
+    padding: 18px 34px !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    font-weight: 400;
+}
+
+.set_report_search .hero_search {
+    padding: 14px 55px !important;
+    font-size: 18px;
+    line-height: 28px;
+    color: #fff;
+}
+
+.search-report-block {
+    padding: 0 77px;
+}
+
+.report_card img {
+    max-width: 355px;
+    border-radius: 14px;
+    width: 100%;
+}
+
+.report_detail h2 {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 700;
+    font-family: 'Poppins';
+    color: #000000;
+    margin: 0;
+}
+
+.report_detail {
+    padding: 15px 10px;
+    text-align: center;
+}
+
+.report_detail .app-text {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #818181;
+    font-family: 'Poppins';
+}
+
+.ordernow_btn {
+    padding: 13px 40px !important;
+    font-size: 18px !important;
+    line-height: 28px !important;
+    color: #fff !important;
+    border-radius: 30px !important;
+    margin: 20px 0;
+}
+
+.order-single-width {
+    width: 100%;
+    max-width: 368px;
+    margin: 0 auto;
+}
+
+.strata-Rep-section{
+    padding: 55px 15px 70px;
+}
+
+.strata-rep-form {
+    padding-left: 135px !important;
+}
+
+.strata-rep-form .form-label {
+    padding-bottom: 6px;
+}
+
+.strata-rep-form .form-control {
+    font-size: 16px !important;
+    line-height: 20px !important;
+    padding: 13px 30px;
+}
+
+.strata-rep-form .strata-redio {
+    color: #1D83FF;
+    line-height: 24px;
+    font-size: 18px;
+}
+
+.agree-checkbox {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    padding: 45px 20px;
+    line-height: 22px;
+    color: #444444;
+}
+
+.strata-img-title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    padding: 15px 6px 5px;
+    margin: 0;
+    color: #444444;
+}
+
+.strata-img-date {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #818181;
+    padding-bottom: 10px;
+}
+
+.report-users .app-text {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+p.payment-title {
+    font-weight: 700;
+    font-family: 'Poppins_bold';
+    font-size: 30px;
+    line-height: 45px;
+    color: #444444;
+}
+.thanks-title{
+    font-weight: 700;
+    font-family: 'Poppins_bold';
+    font-size: 40px;
+    line-height: 60px;
+    color: #1D83FF;    
+    padding-bottom: 60px;
+}
+.thanks-text{
+    font-weight: 500;
+    font-family: 'Poppins';
+    font-size: 30px;
+    line-height: 45px;
+    color: #444444;    
+}
+
+.thanks-id-text{
+    font-weight: 500;
+    font-family: 'Poppins';
+    font-size: 20px;
+    line-height: 30px;
+    color: #444444;     
+    padding-top: 50px; 
+}
+
+.set_building_title {
+    margin: 80px 0;
+}
+
+.set_building_title > .app-title {
+    font-size: 30px;
+    line-height: 45px;
+    color: #444444;
+    font-weight: 700;
+    font-family: 'Poppins_bold';
+    padding-bottom: 50px;
+}
+
+.set-build-form {
+    padding-left: 80px !important;
+}
+
+.build-form-title {
+    font-size: 24px;
+    line-height: 36px;
+    color: #444444;
+    font-family: 'Poppins_bold';
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.set-build-form .form-check-label {
+    font-size: 18px;
+    line-height: 20px;
+    color: #1D83FF;
+    font-weight: 400;
+}
+
+.set-valuation-form{
+    padding: 10px 90px;
+}
+
+.set-valuation-form .form-check-label {
+    font-size: 18px;
+    line-height: 20px;
+    color: #1D83FF;
+    font-weight: 400;
+}
+
+.set-valu-radio {
+    margin: 20px 10px 20px 23px;
+    padding-bottom: 10px;
+}
+
+.insurance-form {
+    padding: 0 60px 0 80px !important;
+}
+
+.insurance-block {
+    padding: 50px 15px 90px;
+}
+
+.insurance-form input {
+    font-size: 16px;
+    line-height: 22px;
+    padding: 13px 28px;
+}
+
+.portal-tabs .tab-content{
+    min-height: 60vh;
+}
+
+@media screen and (max-width: 1200px) {
+    .insurance-form {
+        padding: 0 30px 0 40px !important;
+    }
+    .set-valuation-form{
+        padding: 10px 40px;
+    }
+    .strata-rep-form {
+        padding-left: 40px !important;
+    }
+    .set-build-form {
+        padding-left: 40px !important;
+    }
+    .insurance-block {
+        padding: 40px 15px 60px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .insurance-block {
+        padding: 20px 0px 40px;
+    }    
+    .insurance-form {
+        padding: 0 20px 0 20px !important;
+    }
+    .set-valuation-form{
+        padding: 10px 0px;
+    }
+    .set-valu-radio {
+        margin: 15px 10px;
+        padding-bottom: 0px;
+    }
+    .set_building_title {
+        margin: 40px 0;
+    }
+    .set_building_title > .app-title{
+        padding-bottom: 20px;
+    }
+    .thanks-title{
+        font-size: 30px;
+        line-height: 38px;
+        color: #1D83FF;    
+        padding-bottom: 20px;
+    }
+    .thanks-text{
+        font-size: 22px;
+        line-height: 30px;
+    }
+    
+    .thanks-id-text{
+        font-size: 18px;
+        line-height: 28px;
+        padding-top: 25px; 
+    }
+    .strata-rep-form {
+        padding-left: 0px !important;
+    }
+    .strata-img-title {
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 25px;
+        padding: 10px 0px 0px;
+        margin: 0;
+    }
+    .strata-img-date {
+        font-size: 16px;
+        line-height: 24px;
+        padding-bottom: 0;
+    }
+    .strata-rep-form .strata-redio {
+        color: #1D83FF;
+        line-height: 20px;
+        font-size: 14px;
+    }
+    .strata-rep-form .form-control {
+        padding: 10px;
+    }
+    .agree-checkbox {
+        font-size: 14px;
+        padding: 15px 20px;
+        line-height: 18px;
+    }
+    body .report-author-block {
+        display: block !important;
+    }
+    .report-users .app-text {
+        color: #000;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+    }
+    .order-single-width {
+        width: 100%;
+        max-width: 368px;
+        margin: 0 auto;
+    }
+    .report_detail h2 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .report_detail .app-text {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .ordernow_btn {
+        padding: 12px 26px !important;
+        font-size: 16px !important;
+        line-height: 24px !important;
+    }
+    .search-report-block {
+        padding: 0px;
+    }
+    .set_report_title {
+        padding: 40px 0px 60px;
+    }
+    .set_report_title .app-title {
+        padding-bottom: 30px;
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .set_report_search .hero_search{
+        padding: 0 !important;
+    }
+    body .portal-search-block .portal-search-box{
+        padding: 10px;
+    }
+    .portal-search-block .portal-search-button{
+        padding: 8px 15px;
+    }
+    body .portal-table-header {
+        padding: 10px 10px !important;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    body .portal-shortby .portal-search-select {
+        padding: 6px 0px;
+    }
+    .portal-choose-avatar{
+        margin: 10px 0px 0px 0px;
+    }
+    .portal-table-content{
+       width: 800px;
+    }
+    body .order-process-row .card-header{
+        padding: 10px 0;
+    }
+    .upload-img-block {
+        background-color: rgb(196, 196, 196);
+        width: 140px;
+        height: 140px;
+        padding: 40px 10px;
+    }
+    .upload-img-text{
+        font-size: 14px;
+    }
+    .set_page_title .app-title{
+        font-size: 28px;
+        line-height: 34px;
+    }
+    .strata-Rep-section{
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .set-build-form {
+        padding-left: 15px !important;
+        padding-top: 30px !important;
+        padding-right: 15px;
+    }
+    body .set-radio-mobile, .set-radio-mobile div {
+        display: block !important;
+        width: 100%;
+        margin: 0 !important;
+    }
+    body .report-author-block {
+        display: flex !important;
+    }
+    body .portal-shortby {
+     justify-content: center !important;
+     margin: 10px 0;
+    }
+    .strata-rep-form {
+        padding-left: 15px !important;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}

@@ -1,0 +1,20 @@
+.brand-root{
+    margin-top: 20px;
+    padding: 15px;
+}
+.brand-logo{
+    width: 220px;
+    height: 228px;
+    padding: 5px;
+}
+
+/* ==============================
+        Responisve
+============================== */
+
+@media screen and (max-width: 767px) {
+    .brand-root {
+        margin-top: 0;
+        padding: 0;
+    }
+}
